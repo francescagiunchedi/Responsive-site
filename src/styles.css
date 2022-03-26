@@ -42,9 +42,10 @@ p {
   display: flex;
   justify-content: center;
 }
-
-.button {
+.margin-button {
   margin: 60px 0 80px;
+}
+.button {
   display: flex;
   justify-content: center;
 }
