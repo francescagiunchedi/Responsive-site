@@ -1,7 +1,7 @@
 :root {
-  --button-background-color: #ea3546;
+  --button-background-color: rgb(125, 170, 218);
   --button-box-shadow: 3px 3px 8px rgba(65, 34, 34, 0.2);
-  --info-background-color: hsla(354, 79%, 68%, 0.05);
+  --info-background-color: hsla(209, 79%, 68%, 0.05);
 }
 
 section {
