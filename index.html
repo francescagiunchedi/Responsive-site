@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Page about Frankie's works">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <!-- <p>boostrap css</p> -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -28,9 +30,9 @@
     />
 
     <!-- <p>my css</p> -->
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="/src/styles.css">
 
-    <title>Frankie</title>
+    <title>Frankie: homepage</title>
   </head>
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
@@ -43,15 +45,15 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a style="color: var(--button-background-color);"
-          class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+          class="nav-link active fw-bold" aria-current="page" href="/index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about-me.html">About-me</a>
+          <a class="nav-link" href="/about-me.html">About-me</a>
         </li>
         <li class="nav-item">
               <a
                  class="nav-link"
-                 href="about-me.html#contacts"
+                 href="/about-me.html#contacts"
                 >Contacts</a
               >
             </li>
@@ -67,24 +69,25 @@
         <h1>Frankie</h1>
         <h3>🇮🇹 🎓 Student front-end developer, based in Europe</h3>
       </section>
-      <div class="button margin-button">
-        <a href="about-me.html#contacts">Contact me</a>
-        <a href="about-me.html">About me</a>
+      
+      <div class="button-div margin-button">
+        <a class="button" href="/about-me.html#contacts">Contact me</a>
+        <a class="button" href="/about-me.html">About me</a>
       </div>
       <div class="row">
           <div class="col-sm-6 ">
              <div 
-             class="border-image d-flex p-4 rounded-3 d-flex">
+             class=" d-flex p-2 rounded-3 d-flex shadow-sm">
                 <img 
-             class="img-fluid align-self-center rounded-3" src="jpg/weather-app.JPG" alt="weather-app" >
+             class="img-fluid align-self-center rounded-3" src="/images/yoga.png" alt="ypga-app" >
              </div>
           </div>
           <div class="col-sm-6 p-4">
               <div class="ms-2">
-                <h3>Weather App</h3>
+                <h3>Yoga app</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
-              <div class="button">
-                <a href="https://confident-heisenberg-004c3f.netlify.app/" target="_blanlk">Launch app</a>
+              <div class="button-div">
+                <a href="https://confident-heisenberg-004c3f.netlify.app/" target="_blanlk" class="button">Launch app</a>
                 </div>
               </div>
             </div>
@@ -93,21 +96,40 @@
       <div class="row mt-5">
           <div class="col-sm-6 p-4">
               <div>
-                  <h3>Gilda Musicorum
+                  <h3>Weather
                   </h3>
                   <p class="ms-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
-                  <div class="button">
-                <a href="#">Launch site</a>
+                  <div class="button-div">
+                <a href="https://confident-heisenberg-004c3f.netlify.app/" target="_blank" class="button">Launch site</a>
                 </div>
                 </div>
             </div>
             <div class="col-sm-6 ">
-             <div class="border-image p-4 rounded-3">
+             <div class=" p-2 rounded-3 shadow-sm">
                 <img 
-             class="img-fluid align-self-center rounded-3" src="jpg/rock-site.JPG" alt="weather-app" >
+             class="img-fluid align-self-center rounded-3" src="images/weather.png" alt="weather-app" >
              </div>
           </div>
           <div class="col-sm-6"></div>
+          <div class="row mt-5">
+            <div class="col-sm-6 ">
+               <div 
+               class=" d-flex p-2 rounded-3 d-flex shadow-sm">
+                  <img 
+               class="img-fluid align-self-center rounded-3" src="/images/yogurt.png" alt="weather-app" >
+               </div>
+            </div>
+            <div class="col-sm-6 p-4">
+                <div class="ms-2">
+                  <h3>Yogurt</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
+                <div class="button-div">
+                  <a href="https://confident-heisenberg-004c3f.netlify.app/" target="_blanlk" class="button">Launch app</a>
+                  </div>
+                </div>
+              </div>
+            <div class="col-sm-6"></div>
+        </div>
       </div>
       <script src="src/app.js"></script>
       </div>

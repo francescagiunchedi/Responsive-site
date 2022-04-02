@@ -45,11 +45,11 @@ p {
 .margin-button {
   margin: 60px 0 80px;
 }
-.button {
+.button-div {
   display: flex;
   justify-content: center;
 }
-.button a {
+.button {
   text-decoration: none;
   font-family: "Fredoka", sans-serif;
   background-color: var(--button-background-color);
@@ -61,7 +61,8 @@ p {
   margin: 15px;
   text-align: center;
 }
-.button a:hover {
+
+.button:hover {
   box-shadow: var(--button-box-shadow);
   color: var(--button-background-color);
   border: 1px solid var(--button-background-color);
@@ -88,6 +89,22 @@ p {
 .primary-bg-color {
   background-color: var(--info-background-color);
 }
-.border-image {
-  border: 1px solid var(--button-background-color);
+
+@media (max-width: 675px) {
+  .button-div {
+    display: block;
+  }
+  .button {
+    display: block;
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    background-color: var(--button-background-color);
+    border: 1px solid var(--button-background-color);
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+  }
 }
